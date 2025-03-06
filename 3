@@ -1,5 +1,10 @@
-public void invertArray(int[] array) {
-    for (int i = 0; i < array.length; i++) {
-        array[i] = (array[i] == 0) ? 1 : 0;
+public void printColor() {
+    int value = 50;
+    if (value <= 0) {
+        System.out.println("Красный");
+    } else if (value <= 100) {
+        System.out.println("Желтый");
+    } else {
+        System.out.println("Зеленый");
     }
 }
