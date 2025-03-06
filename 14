@@ -1,5 +1,14 @@
-public int[] createArray(int len, int initialValue) {
-    int[] array = new int[len];
-    Arrays.fill(array, initialValue);
-    return array;
+import java.util.Arrays; 
+
+public class Main {
+    public static void main(String[] args) {
+        int[] array = createArray(10, 10); 
+        System.out.println(Arrays.toString(array)); 
+    }
+
+    public static int[] createArray(int len, int initialValue) {
+        int[] array = new int[len];
+        Arrays.fill(array, initialValue);
+        return array;
+    }
 }
